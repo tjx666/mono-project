@@ -19,6 +19,9 @@ importers:
 
   packages/pkg2:
     dependencies:
+      '@yutengjing/foo':
+        specifier: ^1.0.0
+        version: 1.0.0
       vue:
         specifier: ^2.7.16
         version: 2.7.16
