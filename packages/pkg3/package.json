@@ -1,0 +1,6 @@
+{
+    "name": "pkg3",
+    "dependencies": {
+        "@yutengjing/foo": "^1.0.1"
+    }
+}

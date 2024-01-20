@@ -26,6 +26,12 @@ importers:
         specifier: ^2.7.16
         version: 2.7.16
 
+  packages/pkg3:
+    dependencies:
+      '@yutengjing/foo':
+        specifier: ^1.0.1
+        version: 1.0.1
+
 packages:
 
   /@babel/helper-string-parser@7.23.4:
@@ -117,6 +123,10 @@ packages:
     resolution: {integrity: sha512-jwu5/VxIedWXBpUJhDSipE2ESy1vMiZhYwaPh7m3LwX2/arOJQQFojd/H/QU/pL7jfBO2E4br2RCjeaGiApcdQ==}
     dependencies:
       '@yutengjing/release': 0.2.0
+    dev: false
+
+  /@yutengjing/foo@1.0.1:
+    resolution: {integrity: sha512-2pbtZ5BA9Ap2Ql+AHG0IUp59drfNFNWwJv6WDIY0RTf4/J1xmBPjKvmhBQ70kURRrWG5JeSjG8LDTrACd7UqBg==}
     dev: false
 
   /@yutengjing/release@0.2.0:
