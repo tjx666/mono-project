@@ -20,8 +20,8 @@ importers:
   packages/pkg2:
     dependencies:
       '@yutengjing/foo':
-        specifier: ^0.0.0
-        version: 0.0.0
+        specifier: ^0.0.1
+        version: 0.0.1
       vue:
         specifier: ^2.7.16
         version: 2.7.16
@@ -115,6 +115,12 @@ packages:
 
   /@yutengjing/foo@0.0.0:
     resolution: {integrity: sha512-Pdqh60vxECZqNGxDlEJHfofZpLCeZB8/JKt2eIu6DUtNTH8Z9pJU6s9+Gm5k18doGGVvtC3MLfXHZnDV+3VF1Q==}
+    dependencies:
+      '@yutengjing/release': 0.2.0
+    dev: false
+
+  /@yutengjing/foo@0.0.1:
+    resolution: {integrity: sha512-ui3NLyfFnd33LrzoPFlXLFdLwf+xkEWayzIJWFXp2XGgHgj1SKmonnV+5QchWdN8SJ96goGFEtnAPowGmyjI3w==}
     dependencies:
       '@yutengjing/release': 0.2.0
     dev: false

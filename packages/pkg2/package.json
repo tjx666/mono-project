@@ -2,6 +2,6 @@
     "name": "pkg2",
     "dependencies": {
         "vue": "^2.7.16",
-        "@yutengjing/foo": "^0.0.0"
+        "@yutengjing/foo": "^0.0.1"
     }
 }
